@@ -21,10 +21,59 @@
             colors: {
               clifford: "#da373d",
             },
+            fontFamily: {
+              manrope: ["Manrope", "serif"],
+            },
           },
         },
       };
     </script>
   </head>
-  <body></body>
+  <body class="font-manrope">
+    <header></header>
+    <main class="max-w-screen-xl mx-auto p-5 md:p-0">
+      <!-- banner section -->
+      <section class="banner py-12">
+        <div
+          class="flex items-center justify-between flex-col gap-5 lg:flex-row"
+        >
+          <!-- text -->
+          <div class="space-y-7">
+            <h1 class="font-bold text-7xl">
+              It's good <br />
+              tea time at The Tea House
+            </h1>
+            <p class="text-base text-gray-500">
+              Tea and Botanical Solutions Supplier Give Optimum <br />
+              Satisfaction To Your Taste Buds.
+            </p>
+            <button
+              class="px-4 py-4 text-xl rounded-lg bg-gradient-to-r from-orange-500 to-red-600 text-white font-bold"
+            >
+              Explore More <i class="fa-solid fa-arrow-right -rotate-45"></i>
+            </button>
+          </div>
+          <!-- Image -->
+          <div class="relative">
+            <img src="./images/banner.png" alt="" />
+            <div
+              class="badge flex shadow-lg items-center gap-2 py-4 px-2 rounded-lg absolute left-20 bottom-0 z-10 bg-white"
+            >
+              <div class="star">
+                <i class="fa-solid fa-star text-2xl text-orange-300"></i>
+              </div>
+              <div>
+                <h3 class="font-bold text-3xl">5.00</h3>
+                <p class="text-gray-500 font-semibold text-base">
+                  Trust Pilot Ratings
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  -->
+    </main>
+    <footer></footer>
+  </body>
 </html>
